@@ -1,0 +1,11 @@
+{
+  "emmet.useInlineCompletions": true,
+  "emmet.triggerExpansionOnTab": true,
+  "tailwindCSS.emmetCompletions": true,
+  "emmet.showSuggestionsAsSnippets": true,
+  "editor.snippetSuggestions": "top",
+  "emmet.showExpandedAbbreviation": "never",
+  "emmet.includeLanguages": {
+    "html": "html"
+  }
+}

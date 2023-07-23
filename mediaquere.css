@@ -1,0 +1,10 @@
+@media (max-width: 320px){
+  [mulher], [boll], [seta]{
+    display: none;
+  }
+}
+@media (max-width: 600px){
+  [mulher],[boll],[seta]{
+    display: none;
+  }
+}

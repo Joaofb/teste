@@ -1,0 +1,182 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  outline: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  font-size: 1em;
+  font-weight: 100;
+}
+
+header {
+  width: 100%;
+  background-image: url("/img/Vector Smart Object.png"), linear-gradient(to right, #FA5007, #FA079D);
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+.header-content {
+  margin: auto;
+  padding: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+[seta] {
+  position: absolute;
+  top: 10px;
+}
+
+[mulher] {
+  position: absolute;
+  top: 65px;
+  z-index: 0;
+}
+
+.header-logo {
+  margin-top: -5px;
+  margin-bottom: 2.5em;
+}
+
+[boll] {
+  position: absolute;
+  top: 120px;
+  left: 200px;
+}
+
+.header-center {
+  margin-left: 1em;
+}
+
+.text {
+  width: 200px;
+  color: #fff;
+  text-align: end;
+  margin-right: 1em;
+}
+
+[triangle] {
+  position: relative;
+  top: 1px;
+  right: -15px;
+}
+
+[zig] {
+  position: relative;
+  right: -5px;
+}
+
+[one-text] {
+  margin-top: 1em;
+}
+
+main {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 1em;
+  position: relative;
+}
+
+.content {
+  width: 100%;
+  margin: auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 5px;
+}
+
+.item > img {
+  display: block;
+  width: 100%;
+  padding: 1px;
+  margin: 0 auto;
+  margin-bottom: 1em;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 2em;
+}
+
+[italic] {
+  margin-top: 0.9em;
+  font-size: 0.7em;
+  color: gray;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.listra-one {
+  width: 69.9%;
+  height: 5px;
+}
+
+.listra-two {
+  width: 80%;
+  height: 5px;
+}
+
+.listra-last {
+  width: 70%;
+  height: 6px;
+}
+
+.ads {
+  margin-top: 2em;
+  height: 100px;
+  background: #F04601;
+  text-align: center;
+}
+
+.mandarin {
+  margin-top: 25px;
+}
+
+.content {
+  text-align: start;
+}
+
+.second {
+  display: flex;
+  justify-content: space-between;
+}
+
+.one-content {
+  width: 50%;
+  display: block;
+  padding: 1px;
+}
+
+.second-content {
+  width: 50%;
+  display: block;
+  margin: 1px;
+}
+
+.one-content > img {
+  width: 100%;
+}
+
+.second-content > img {
+  width: 100%;
+}
+
+footer {
+  text-align: center;
+  padding: 5px;
+}
+
+footer > p {
+  width: 75%;
+  margin: 0 auto;
+}
+
+a {
+  color: gray;
+}/*# sourceMappingURL=style.css.map */
