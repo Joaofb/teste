@@ -1,10 +1,112 @@
-@media (max-width: 320px){
-  [mulher], [boll], [seta]{
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,400&family=Roboto+Mono:wght@300&display=swap');
+
+
+:root {
+  --color-one: #F05B0C;
+  --colo-two: #F0004A;
+  --horizontal-principal: #FA2F9D;
+  --horizontal-principal: #4820FA;
+  --horizontal-nba-one: #00FAD1;
+  --horizontal-nab-two: #680CFA;
+  --horizontal-wapp-one: #00FAD1;
+  --horizontal-wapp-two: #0CFA68;
+}
+
+@media (min-width: 320px) and (max-width: 458px) {
+  body{
+    font-size: 1em;
+    font-family: "Montserrat";
+  }
+ 
+  .italic{
+    font-family: "Montserrat";
+    font-style: italic;
+    font-weight: 500;
+    font-size: 0.8em;
+  }
+  header {
+    background: linear-gradient(to right, var(--color-one), var(--colo-two));
+    background-repeat: no-repeat;
+  }
+
+  .header-content {
+    display: flex;
+    justify-content: center;
+  }
+  .logo{
+    margin: 2em;
+  }
+  .mulher{
     display: none;
   }
-}
-@media (max-width: 600px){
-  [mulher],[boll],[seta]{
+  .info{
     display: none;
+  }
+
+  main{
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+  }
+  .container{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .item-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .item1,.item2{
+    width: 100%;
+  }
+  .principal>img{
+    width: 100%;
+  }
+  .img{
+    width: 100%;
+  }
+  .assinatura{
+    text-align: center;
+    background-color: var(--color-one);
+  }
+  .assinatura>img{
+    width: 45%;
+  }
+  .texto{
+    margin-top: 1em;
+  }
+  .texto>p{
+    margin-top: 1em;
+  }
+
+  .horizontal-line{
+    width: 100%;
+    text-align: end;
+  }
+  .hr-card{
+    border: none;
+    height: 5px;
+    background: linear-gradient(to right, var(--horizontal-principal-one), var(--horizontal-principal-two));
+  }
+  .hr-card-nba{
+    border: none;
+    height: 5px;
+    background: linear-gradient(to right, var(--horizontal-nba-one),var(--horizontal-nab-two));
+  }
+  
+  .hr-card-wapp{
+    border: none;
+    height: 5px;
+    background: linear-gradient(to right, var(--horizontal-wapp-one),var(--horizontal-wapp-two));
+  }
+
+
+
+  footer{
+    text-align: center;
+    margin: 0 auto;
   }
 }

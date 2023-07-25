@@ -1,8 +1,9 @@
 body{
   padding: 0px;
   margin: 0px;
+  box-sizing: border-box;
 }
-h1,h2,h3,h4,h5,h6, p, main,aside,img,article,header{
+body,h1,h2,h3,h4,h5,h6, p, main,aside,img,article,header{
   padding: 0px;
   margin: 0px;
 } 
