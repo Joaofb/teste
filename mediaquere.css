@@ -49,7 +49,7 @@
     flex-direction: column;
   }
   .container{
-    margin: 0 auto;
+    width: 80%;
     display: flex;
     flex-direction: column;
   }
@@ -72,9 +72,11 @@
     text-align: center;
     background-color: var(--color-one);
   }
+
   .assinatura>img{
-    width: 290px;
+    height:55px;
   }
+
   .texto{
     margin-top: 1em;
   }

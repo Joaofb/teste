@@ -73,45 +73,47 @@ h1{
   margin-bottom: 1em;
 }
 
+main{
+  text-align: center;
+  position: relative;
+}
 .container{
   width: 80%;
-  margin: auto;
+  margin: 0 auto;
   margin-top: 1em;
-  display: flex;
-  flex-wrap: wrap;
+  border: 1px solid #F0004A;
 }
-/* .item{
-  margin: 0 auto;
-} */
-.item-content{
-  width: 90%;
-  margin: 0 auto;
-  padding: 3px;
-}
-.principal{
-  width: 90%;
-  margin: auto;
-  padding: 10px;
-  float: left;
-}
-.item1{
-  float: left;
-  order: 1;
-  width: 49%;
-}
-.item2{
-  float: right;
-  order: 2;
-  width: 49%;
-}
-.img{
+.item>img{
   width: 100%;
 }
+
+.conteudo-um{
+  grid-area: 1/1/3/1;
+}
+.conteudo-dois{
+  grid-area: 1/2/2/3;
+}
+
+.item-content{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+.texto{
+  text-align: start;
+}
+
+
+
+
+
 .assinatura>img{
+  width: 290px;
   height: 65px;
   margin-top: 1.5em;
 }
 .assinatura{
+  clear: both;
   height: 120px;
   text-align: center;
   background-color: var(--color-one);
