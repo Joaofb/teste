@@ -11,8 +11,8 @@
   --horizontal-wapp-one: #00FAD1;
   --horizontal-wapp-two: #0CFA68;
 }
-
-@media (min-width: 320px) and (max-width: 458px) {
+/* 0 ate 658 */
+@media (max-width: 658px) {
   body{
     font-size: 1em;
     font-family: "Montserrat";
@@ -29,7 +29,8 @@
     background-repeat: no-repeat;
   }
 
-  .header-content {
+  .header-container{
+    background-image: none;
     display: flex;
     justify-content: center;
   }
@@ -39,7 +40,7 @@
   .mulher{
     display: none;
   }
-  .info{
+  .texto-info{
     display: none;
   }
 
@@ -52,6 +53,8 @@
     margin: 0 auto;
     display: flex;
     flex-direction: column;
+
+    
   }
   .item-content{
     display: flex;
@@ -112,3 +115,4 @@
     margin: 0 auto;
   }
 }
+
