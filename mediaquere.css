@@ -12,7 +12,7 @@
   --horizontal-wapp-two: #0CFA68;
 }
 /* 0 ate 658 */
-@media (max-width: 658px) {
+@media (max-width: 752px) {
   body{
     font-size: 1em;
     font-family: "Montserrat";
@@ -25,17 +25,23 @@
     font-size: 0.8em;
   }
   header {
-    background: linear-gradient(to right, var(--color-one), var(--colo-two));
+    background: url('/img/novabola.png'), linear-gradient(to right, var(--color-one), var(--colo-two));
     background-repeat: no-repeat;
+    background-position: 10% -50%;
+    background-size: contain;
   }
 
   .header-container{
     background-image: none;
-    display: flex;
-    justify-content: center;
+    justify-content: start;
+  }
+  .background{
+    background-image: none;
   }
   .logo{
-    margin: 2em;
+    background-image: none;
+    margin: calc(2em - 3px);
+    margin-left: calc(2em + 50px);
   }
   .mulher{
     display: none;
@@ -108,9 +114,13 @@
     background: linear-gradient(to right, var(--horizontal-wapp-one),var(--horizontal-wapp-two));
   }
 
-
-
   footer{
+    margin-bottom: 2em;
+  }
+
+  footer>p{
+    margin-top: 1em;
+    margin-bottom: 2em;
     text-align: center;
     margin: 0 auto;
   }

@@ -15,13 +15,16 @@
 
 header{
   background:linear-gradient(to right, var(--color-one), var(--colo-two));
+  background-repeat: no-repeat;
+  background-position: calc( 1% - 2px);
+  display: block;
 }
 
 /* container do header */
 .header-container{
   background: url('/img/linewave.png'), url('/img/tringulo.png'), url('/img/bolinhas.png');
   background-repeat: no-repeat;
-  background-position: 100% 92%, 100% 10%, calc(30% + 50px) 150%;
+  background-position: 100% 92%, 100% 10%, calc(30% + 50px) 130%;
   background-size: auto, auto;
   width: 80%;
   max-width: 1020px;
@@ -30,8 +33,15 @@ header{
   justify-content: space-between;
 }
 /* logo */
+.background{
+  background: url('/img/novabola.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
 .logo{
   margin-top: 2em;
+  margin-left: calc(2em + 50px);
+
 }
 /* mulher-centro */
 .mulher{
