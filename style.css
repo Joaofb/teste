@@ -80,11 +80,11 @@ h1{
 }
 /* estilização em algumas tags p */
 .italic{
-  font-size: 1em;
+  font-size: 1rem;
   font-family: "Montserrat";
   font-style: italic;
   font-weight: 400;
-  margin-top: 2.5em;
+  margin-top: 2em;
   color: gray;
 }
 /* conteudo das imagens e paragrafo */
@@ -92,7 +92,6 @@ h1{
   width: 80%;
   margin: 0 auto;
   margin-top: 1em;
-  
   max-width: 1024px;
   margin-bottom: 10px;
 }

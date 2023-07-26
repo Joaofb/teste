@@ -12,7 +12,7 @@
   --horizontal-wapp-two: #0CFA68;
 }
 /* 0 ate 658 */
-@media (max-width: 752px) {
+@media (max-width: 658px) {
   body{
     font-size: 1em;
     font-family: "Montserrat";
@@ -33,15 +33,14 @@
 
   .header-container{
     background-image: none;
-    justify-content: start;
+    display: flex;
   }
   .background{
     background-image: none;
   }
   .logo{
     background-image: none;
-    margin: calc(2em - 3px);
-    margin-left: calc(2em + 50px);
+    margin: 2em;
   }
   .mulher{
     display: none;
@@ -59,14 +58,11 @@
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-
-    
   }
   .item-content{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
   }
   .item1,.item2{
     width: 100%;
