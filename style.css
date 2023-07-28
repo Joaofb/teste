@@ -14,16 +14,17 @@
 /* cabeça */
 
 header{
-  background:url('/img/novabola.png'),linear-gradient(to right, var(--color-one), var(--colo-two));
+  max-height: 200px;
+  background:linear-gradient(to right, var(--color-one), var(--colo-two));
   background-repeat: no-repeat;
-  background-position: calc( 10% - 2px);
+  padding: 10px;
 }
 
 /* container do header */
 .header-container{
   background: url('/img/linewave.png'), url('/img/tringulo.png'), url('/img/bolinhas.png');
   background-repeat: no-repeat;
-  background-position: 100% 92%, 100% 10%, calc(28% + 50px) 130%;
+  background-position: 100% 92%, 100% 10%, calc(33% + 50px) 130%;
   background-size: auto, auto;
   width: 80%;
   max-width: 1020px;
@@ -34,7 +35,14 @@ header{
 }
 /* logo */
 .background{
+  background: url('/img/novabola.png');
+  background-repeat: no-repeat;
+
   padding: 20px;
+}
+.bola-logo{
+  position: relative;
+  top: -100px;
 }
 .logo{
   margin-top: 2em;
@@ -69,9 +77,9 @@ main{
 }
 /* config-titulo */
 h1{
-  margin-top: 1em;
+  margin-top: 1rem;
   font-size: 1.2em;
-  margin-bottom: 1em;
+  margin-bottom: 1rem;
   font-family: "Montserrat";
 }
 /* estilização em algumas tags p */
@@ -119,6 +127,9 @@ h1{
   padding-top: 10px;
   padding-left: 5px;
 }
+.texto>h1{
+  padding-bottom: 1rem;
+}
 
 .horizontal-line{
   width: 50%;
@@ -162,9 +173,7 @@ footer{
   height: 50px;
   text-align: center;
 }
-footer>p{
 
-}
 a{
   color: #ccc;
 }
