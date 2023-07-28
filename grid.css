@@ -1,6 +1,0 @@
-.container-grid{
-  width: 50%;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: 2fr repeat(2, 1fr);
-}

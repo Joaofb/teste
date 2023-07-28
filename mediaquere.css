@@ -55,6 +55,7 @@
     flex-direction: column;
   }
   .container{
+    width: 90%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -122,3 +123,21 @@
   }
 }
 
+@media (min-width: 470px) and (max-width: 658px){
+  .header-container{
+    background-image: none;
+  }
+  .texto-info{
+    background-image: url('/img/tringulo.png'), url('/img/linewave.png');
+    background-position: 100% -0%, 95% 85%;
+    background-repeat: no-repeat;
+    display: block;
+    padding: 2px;
+    margin-top: 0.2em;
+  }
+  .texto-info>p{
+    margin-top: 1.5rem;
+    font-size: 0.9rem;
+    margin-right: 10px;
+  }
+}
